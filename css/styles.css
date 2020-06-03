@@ -1,0 +1,91 @@
+/* Standaard */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: #000000;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+/* Content */
+
+#container {
+    position: relative;
+    height: 100vh;
+}
+
+.content {
+   float:left;
+}
+
+.wrapper {
+    position: absolute;
+    width: 215vw !important;
+    top: 0;
+    left: 0%;
+    background: url(../Assets/Uithof_achter.png) repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.city{
+    height: 500px;
+    width: 120vw;
+}
+
+.city img{
+    width: 120vw;
+}
+
+.information{
+    width: 65vw;
+    height: 100vh;
+    background-color: #ffffff;
+    /*background: url(https://refugeerepublic.submarinechannel.com/images/walk3_en/layer2_logoenz.gif) no-repeat; */
+    background: url(../Assets/Uithof_info.png) no-repeat;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: auto 100%;
+    -moz-box-shadow:    inset 9px 0 9px -7px rgba(0,0,0,0.6);
+    -webkit-box-shadow: inset 9px 0 9px -7px rgba(0,0,0,0.6);
+    box-shadow:         inset 9px 0 9px -7px rgba(0,0,0,0.6);
+}
+
+.scenario{
+    width: 30vw;
+    height: 100vh;
+    margin: 0px !important;
+    background-color: #ffffff;
+    -moz-box-shadow:    inset -9px 0 9px -7px rgba(0,0,0,0.6);
+    -webkit-box-shadow: inset -9px 0 9px -7px rgba(0,0,0,0.6);
+    box-shadow:         inset -9px 0 9px -7px rgba(0,0,0,0.6);
+}
+
+.scenarioText{
+    font-size: 0.3em;
+    font-weight: 200;
+    color: #000000;
+    text-decoration: none;
+}
+
+.overzichtButton{
+    font-size: 0.3em;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.scenario h1{
+    font-size: 0.3em;
+    font-weight: 700;
+}
