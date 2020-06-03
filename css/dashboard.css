@@ -4,7 +4,7 @@
 body{
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 10px;
     color: #ffffff;
     background-color: #ffffff;
     margin: 0;
@@ -15,7 +15,7 @@ body{
 button{
     font-family: 'Oswald', sans-serif !important;
     font-weight: 300 !important;
-    font-size: 1em !important;
+    font-size: 10px !important;
 }
 
 /* Map */
@@ -31,7 +31,7 @@ button{
 
 .top_menu{
     padding-left: 20%;
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 .menu img{
@@ -51,7 +51,7 @@ button{
 }
 
 .menu button{
-    margin-top: 80%;
+    margin-top: 25px;
 }
 
 
@@ -71,7 +71,7 @@ button{
 }
 
 .data button{
-    margin-top: 50px;
+    margin-top: 5px;
 }
 
 .data h1{
@@ -81,17 +81,17 @@ button{
 
 .data #IDset{
     padding-left: 22%;
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 .data #legenda{
     padding-left: 22%;
-    padding-top: 100px;
+    padding-top: 25px;
 }
 
 .data #legenda li{
     display: block;
-    padding-top: 25px;
+    padding-top: 10px;
 }
 
 .data #legenda li strong{
@@ -107,7 +107,7 @@ button{
 
 .data #slider{
     padding-left: 22%;
-    padding-top: 100px;
+    padding-top: 25px;
 }
 
 .map svg{
